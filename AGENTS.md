@@ -6,5 +6,7 @@ Commands
 
 Rules
 
+- Use uv for all Python dependencies (`pyproject.toml` + `uv.lock`). Do not use
+  `requirements.txt`.
 - Dependencies are added in `pyproject.toml`. Do not add one without
   asking
